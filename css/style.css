@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --primary-color: #ffc500;
+  --secondary-color: #eaae00;
+  --third-color: #00c0cc;
+  --third-color-hover: #02acb8;
+  --dark-color: #302f2f;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  height: px;
+}
+
+footer {
+  background-color: #302f2f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 290px;
+  padding-left: 250px;
+  padding-top: 40px;
+}
+
+.footer-row1 {
+  color: white;
+  left: 0;
+  padding-right: 190px;
+}
+
+.information-footer {
+  padding-top: 20px;
+  font-size: small;
+}
+
+.about-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-row2 {
+  color: white;
+}
+.service-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.descricao-footer {
+  color: white;
+  padding-left: 490px;
+}
+.descricao-footer p{
+  padding-top: 5px;
+}
+
+.footer-social {
+  display: flex;
+  align-items: flex-end;
+  padding-right: 100px;
+}
+
+/* 
+  - Fonte Roboto. 
+  - Pode utilizar Bootstrap. 
+  - Empregar media-queries para no mínimo a versão mobile. 
+  - Dois arquivos. (Um com a página inicial, o segundo com o formulário (+ header e footer))
+  - 
+*/
